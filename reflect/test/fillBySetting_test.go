@@ -1,7 +1,7 @@
 package Reflect
 
 import (
-	fillbysetting "common/reflect/fillBySetting"
+	fillbysetting "common/reflect"
 	"testing"
 )
 

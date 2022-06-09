@@ -5,7 +5,7 @@ golang服务，里面存在很多可以复用的多个模块，因此开发该�
 
 * math:Decimal保留浮点数后位数，Equal判断浮点数是否相同
 
-* model:结果切片方法以及定时器
+* model:通用的模型模块
 * reflect:利用反射的结构体数据万能填充方法
 * pprof:性能分析方法{
   pprof/file:使用方法
