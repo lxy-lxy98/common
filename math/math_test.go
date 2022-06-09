@@ -30,3 +30,13 @@ func Test_FloatDecimal(t *testing.T) {
 		}
 	}
 }
+
+func Test_FloatEqual(t *testing.T) {
+	a := 1.123
+	b := 1.123
+	if !FloatEqual(a, b, 0) {
+		t.Log("error")
+	} else {
+		t.Log("success")
+	}
+}
